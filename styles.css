@@ -1,0 +1,187 @@
+
+
+.content1
+{
+    height:30%; 
+    background-color:black ;
+    color: white ;
+    
+}
+    
+
+.content2
+{
+    background-color: black;
+}
+.content3{
+    text-align: center; 
+    padding: 2.5rem;
+    position: relative;
+}
+.p-5
+{
+    padding: 8rem !important;
+}
+.pt-5
+{
+padding-top:6rem ;
+}
+.pb-5
+{
+    padding-bottom:7rem;
+}
+.font1
+{
+    font-size: smaller;
+}
+.font2
+{
+    font-size: small;
+}
+
+p{
+    font-size: x-small;
+}
+.ps-5 {
+    padding-left: 7.5rem !important;
+}
+.pt-5
+{
+    padding-top: 7.5rem;
+}
+
+.content3:before
+{
+content:" ";
+position: absolute;
+display: block;
+width: 43%;
+height: 2px;
+left: 0;
+top: 50%;
+background-color:#bbb ;
+z-index: -2;
+}
+.content3:after
+{
+content:" ";
+position: absolute;
+display: block;
+width: 43%;
+height: 2px;
+right: 0;
+top: 50%;
+background-color:#bbb ;
+z-index: -2;
+}
+.content4
+{
+    background: white;
+}
+
+
+
+/* .pt-sm-3
+{
+    padding-top: 3rem !important;
+}
+.pt-lg-5
+{
+    padding-top: 9rem !important; 
+} */
+.content10{
+    padding-bottom: 21rem;
+      padding-top: 17rem; background-color: black;
+}
+
+.content11{
+    height: 30%; background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .content6
+    {
+        width:100%
+    }
+   
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .fontpad1
+    {
+        padding-top: 2rem;
+    }
+    .content6
+    {
+        width:100%;
+        margin: 1%;
+    }
+    .content7
+    {
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap ; 
+        justify-content: space-between; 
+        font-size: small; 
+        height:40%;
+    }
+
+    .content8{
+        padding: 0;
+        height: 85%;
+    }
+    .content9{
+        
+        border-width: 0rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .fontpad1
+    {
+        padding-top: 20rem;
+    }
+    .content6{
+        width:48%;
+        
+        margin: 1%;
+    }
+    .content7
+    {
+        flex-direction: row;
+    }
+    .content8{
+        padding: 2rem;
+    }
+    .content9{
+        border-left: white;
+        border-right: white;
+        border-left-width: 0.1rem;
+        border-right-width: 0.1rem;
+        border-style: solid;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .fontpad1
+    {
+        padding-top: 10rem;
+    }
+    .content6{
+        width:24%;
+        margin:0;
+    }
+    .content8{
+        padding-left: 4.5rem;
+        padding-right: 4.5rem;
+    }
+  
+   
+    
+   
+}
